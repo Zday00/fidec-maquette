@@ -1,0 +1,11 @@
+export const navigation = [['/', 'Accueil'], ['/le-cabinet', 'Le cabinet'], ['/nos-expertises', 'Nos expertises'], ['/secteurs', 'Secteurs accompagnés'], ['/formations', 'Formations'], ['/contact', 'Contact']];
+export const expertises = [
+ { title: 'Audit', text: 'Un regard indépendant sur vos comptes et vos dispositifs financiers pour éclairer vos décisions.', services: ['Commissariat aux comptes', 'Audit contractuel', 'Audit de projets et de financements de bailleurs'] },
+ { title: 'Expertise comptable', text: 'Une information financière structurée, lisible et conforme aux référentiels applicables.', services: ['Tenue et révision des comptes', 'États financiers SYSCOHADA', 'Consolidation', 'Normes IFRS'] },
+ { title: 'Management Consulting', text: 'Un accompagnement pour structurer votre organisation et renforcer votre gestion.', services: ['Organisation', 'Procédures', 'Contrôle interne', 'Gestion financière'] },
+ { title: 'Assistance fiscale, juridique et sociale', text: 'Un appui à la compréhension de vos obligations et à la gestion de vos démarches.', services: ['Déclarations', 'Conseil fiscal', 'Droit des sociétés', 'Paie et social'] },
+ { title: 'Assistance aux missions de mandataires', text: 'Une assistance rigoureuse aux missions spécifiques de mandataires, dans le respect de leur cadre légal.', services: ['Mandats judiciaires', 'Administration provisoire', 'Liquidation'] },
+];
+export const modules = ['Introduction à la gestion financière des ONG', 'Principes de base de la gestion financière', 'Organisation et structuration du système financier', 'Budgétisation et planification financière', 'Comptabilité et suivi financier', 'Reporting et analyse financière'];
+export const sectors = [ ['Entreprises privées', 'Accompagner la fiabilité des comptes, la maîtrise des obligations et la structuration de la gestion.'], ['ONG et projets de développement', 'Appuyer la gestion financière, le suivi des financements et la lisibilité du reporting auprès des parties prenantes.'], ['Institutions publiques', 'Apporter un regard méthodique sur les procédures, le contrôle interne et l’information financière.'], ['PME et startups', 'Poser des bases comptables solides et adapter les outils de gestion aux enjeux de développement.'] ];
+export const heroImage = 'https://images.hostinger.com/8938950a-2dec-4586-8879-1c0c122b82b9.png';

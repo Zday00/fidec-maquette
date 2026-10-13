@@ -1,0 +1,3 @@
+import { Link } from 'react-router';
+import { ArrowUpRight, CalendarDays, MapPin } from 'lucide-react';
+export function TrainingPreview() { return <section className="training-preview section"><div><div className="eyebrow">PROCHAINE FORMATION</div><h2>Gestion financière des ONG<br/>– Les fondamentaux</h2><p>Renforcez les bases de votre gestion financière, de la planification au reporting.</p><div className="training-facts"><span><CalendarDays size={17}/>25 au 27 novembre 2026</span><span><MapPin size={17}/>Niamey</span></div></div><div className="training-side"><strong>200 000 <small>FCFA / personne</small></strong><Link to="/formations" className="button">Découvrir la formation <ArrowUpRight size={18}/></Link></div></section>; }
